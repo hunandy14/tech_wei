@@ -8,10 +8,22 @@
 下面的代碼不要修改，直接貼上並補上適當代碼完成功能。
 
 ```cpp
-Node head = {-1}; // 開頭不算(加上共11個)
-Node n[10] = {0}; // 10個節點
-for(...){...}     // 連結節點
-pri_all(head);    // 印出所有節點
+#include <iostream>
+using namespace std;
+
+// 判定結束可以用 nullptr 最後一個節點沒接東西
+pri_all(head){
+    /*...*/
+}
+int main(int argc, char const *argv[]){
+    Node head = {-1}; // 開頭不算(加上共11個)
+    Node n[10] = {0}; // 10個節點
+    // 連結節點
+    for(/*...*/){
+        /*...*/  
+    }
+    pri_all(head);    // 印出所有節點
+}
 ```
 
 ---
