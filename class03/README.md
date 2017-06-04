@@ -2,13 +2,23 @@
 ===
 
 ## 作業
-連接10個節點，使用for迴圈
+連接10個節點，使用for迴圈創建節點並連接
+最後使用一個function印出全部節點
+
+下面的代碼不要修改，直接貼上並補上適當代碼完成功能。
 
 ```cpp
-
+Node head = {-1}; // 開頭不算(加上共11個)
+Node n[10] = {0}; // 10個節點
+for(...){...}     // 連結節點
+pri_all(head);    // 印出所有節點
 ```
 
 ---
+
+</br></br></br>
+
+## 內容
 
 dev c++ 載點：[DevCppPortable_gcc710](https://mega.nz/#!AgMVGbrB!_0HtH6t5V-7BFsYyz7_DCcLfZuiELKMhP7lHNeoFBKg)
 
