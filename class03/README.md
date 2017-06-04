@@ -11,13 +11,19 @@
 #include <iostream>
 using namespace std;
 
+// 結構
+struct Node {
+    int data = 0;
+    Node* next = nullptr;
+};
+
 // 判定結束可以用 nullptr 最後一個節點沒接東西
 pri_all(head){
     /*...*/
 }
 int main(int argc, char const *argv[]){
     Node head = {-1}; // 開頭不算(加上共11個)
-    Node n[10] = {0}; // 10個節點
+    Node n[10]; // 10個節點
     // 連結節點
     for(/*...*/){
         /*...*/  
